@@ -13,21 +13,22 @@ sprężystość)
 * Ground material - definiuje zewnętrzny wygląd powierzchni mapy
 ### Skrypty:
 * BallControls – Klasa kontrolująca ruch kulki po mapie
-* metoda FixedUpdate() - uaktualnia położenie kulki ze stałą częstotliwością równą liczbie klatek na
+   * metoda FixedUpdate() - uaktualnia położenie kulki ze stałą częstotliwością równą liczbie klatek na
 sekundę
 * BallRespawn – Klasa przywracająca początkowe położenie kulki i początkowe przechylenie mapy w razie
 przekroczenia przez kulkę granic mapy
-* metoda OnCollisionEnter() - powiadamia o kolizji kulki z granicami mapy
+   * metoda OnCollisionEnter() - powiadamia o kolizji kulki z granicami mapy
 * HelpMenu – Klasa wyświetlająca menu pomocy podczas rozgrywki
-* ShowHelpMenu() - wyświetla menu pomocy
-* CloseHelpMenu() - ukrywa menu pomocy
+   * ShowHelpMenu() - wyświetla menu pomocy
+   * CloseHelpMenu() - ukrywa menu pomocy
 * MainCamera – Klasa kontrolująca ruch kamery. Gracz może obracać kamerą w pionie i poziomie
 * Mainmenubuttons – Klasa obsługuje przyciski w menu głównym
 * PauseMenu – Klasa wyświetlająca menu pauzy podczas rozgrywki
 * PlayerControls – Klasa odpowiedzialna za sterowanie i przechylenie mapy
 * Timer – Uaktualnia czas i liczbę prób ukończenia poziomu oraz wyświetla je w formie tekstowej.
-* metoda FinishLineReached() - definiuje czynności wykonywane w momencie ukończenia poziomu
+   * metoda FinishLineReached() - definiuje czynności wykonywane w momencie ukończenia poziomu
 * WinCondition – wykrywa moment pomyślnego ukończenia poziomu i informuje o tym gracza.
+Wiekszość instrukcji wewnątrz skryptyów dodatkowo posiada komentarze opisujące ich działanie.
 ### Sceny:
 * Main menu – główne menu
 * Level1 – pierwszy poziom
